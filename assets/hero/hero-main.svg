@@ -1,12 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" width="900" height="1125">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#242424"/>
-      <stop offset="1" stop-color="#0a0a0a"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1c1c"/>
+      <stop offset="55%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="vstroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8c8c8c"/>
+      <stop offset="45%" stop-color="#e8e8e4"/>
+      <stop offset="55%" stop-color="#f3f3ef"/>
+      <stop offset="100%" stop-color="#6a6a6a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="30%" r="60%">
+      <stop offset="0" stop-color="#3a3a3a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050505" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#050505" stop-opacity="0.65"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="1125" fill="url(#g)"/>
-  <rect x="1" y="1" width="898" height="1123" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
-  <text x="50%" y="472.5" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="600" letter-spacing="3" font-size="28" fill="#3d3d3d">PLACEHOLDER IMAGE</text>
-  <text x="50%" y="527.5" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-weight="800" font-size="56" letter-spacing="2" fill="#5c5c5c">VAHNTRA</text><text x="50%" y="597.5" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-weight="800" font-size="56" letter-spacing="2" fill="#5c5c5c">EDITORIAL</text>
+
+  <rect width="900" height="1125" fill="url(#bg)"/>
+  <rect width="900" height="1125" fill="url(#glow)"/>
+
+  <!-- editorial grid hairlines -->
+  <g stroke="rgba(255,255,255,0.07)" stroke-width="1">
+    <line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="0" y1="975" x2="900" y2="975"/>
+    <line x1="300" y1="0" x2="300" y2="1125"/>
+    <line x1="600" y1="0" x2="600" y2="1125"/>
+  </g>
+
+  <!-- oversized architectural V mark, bleeding off the frame -->
+  <g transform="translate(180,120)" opacity="0.94">
+    <path d="M40 0 L235 640 L430 0 L340 0 L235 460 L130 0 Z"
+          fill="none" stroke="url(#vstroke)" stroke-width="14" stroke-linejoin="miter" transform="scale(1.55)"/>
+  </g>
+
+  <rect width="900" height="1125" fill="url(#fade)"/>
+
+  <!-- fine corner framing -->
+  <g stroke="rgba(255,255,255,0.16)" stroke-width="1.5" fill="none">
+    <path d="M40 40 L40 90 M40 40 L90 40"/>
+    <path d="M860 1085 L860 1035 M860 1085 L810 1085"/>
+  </g>
+
+  <text x="40" y="66" font-family="Inter, Arial, sans-serif" font-weight="600" letter-spacing="3" font-size="12" fill="#8c8c8c">EDITORIAL PLACEHOLDER</text>
 </svg>

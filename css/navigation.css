@@ -90,11 +90,11 @@
 .mobile-menu-btn { display: none; }
 
 .mobile-nav {
+  display: none;
   position: fixed;
   inset: 0;
   background: var(--near-black);
   z-index: calc(var(--z-header) - 1);
-  display: flex;
   flex-direction: column;
   padding: 96px var(--gutter) 40px;
   gap: 8px;
@@ -114,4 +114,5 @@
 @media (max-width: 900px) {
   .main-nav { display: none; }
   .mobile-menu-btn { display: inline-flex; }
+  .mobile-nav { display: flex; }
 }
