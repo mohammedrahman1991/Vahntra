@@ -1,0 +1,16 @@
+{
+  "name": "Vahntra",
+  "short_name": "Vahntra",
+  "description": "Curated outfits. Every piece shoppable.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    {
+      "src": "assets/logo/vahntra-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

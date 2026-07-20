@@ -1,0 +1,1241 @@
+[
+  {
+    "id": "oversized-black-tee",
+    "label": "TOP",
+    "name": "Oversized Black T-Shirt",
+    "brand": "Placeholder Brand",
+    "price": 29.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "black",
+      "oversized",
+      "streetwear",
+      "essentials"
+    ],
+    "image": "assets/products/oversized-black-tee.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "wide-leg-cargo-pants",
+    "label": "BOTTOM",
+    "name": "Wide-Leg Cargo Pants",
+    "brand": "Placeholder Brand",
+    "price": 45.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "category": "bottom",
+    "tags": [
+      "black",
+      "cargo",
+      "streetwear"
+    ],
+    "image": "assets/products/wide-leg-cargo-pants.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "minimal-leather-sneakers",
+    "label": "SHOES",
+    "name": "Minimal Leather Sneakers",
+    "brand": "Placeholder Brand",
+    "price": 39.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "White",
+    "sizes": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "category": "shoes",
+    "tags": [
+      "white",
+      "minimal",
+      "sneakers"
+    ],
+    "image": "assets/products/minimal-leather-sneakers.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "silver-frame-sunglasses",
+    "label": "ACCESSORY",
+    "name": "Silver Frame Sunglasses",
+    "brand": "Placeholder Brand",
+    "price": 18.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Silver",
+    "sizes": [
+      "One Size"
+    ],
+    "category": "accessory",
+    "tags": [
+      "silver",
+      "sunglasses"
+    ],
+    "image": "assets/products/silver-frame-sunglasses.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "charcoal-crew-sweatshirt",
+    "label": "TOP",
+    "name": "Charcoal Crew Sweatshirt",
+    "brand": "Placeholder Brand",
+    "price": 34.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Charcoal",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "charcoal",
+      "minimal",
+      "essentials"
+    ],
+    "image": "assets/products/charcoal-crew-sweatshirt.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "tapered-tech-trousers",
+    "label": "BOTTOM",
+    "name": "Tapered Tech Trousers",
+    "brand": "Placeholder Brand",
+    "price": 52.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "category": "bottom",
+    "tags": [
+      "black",
+      "tapered",
+      "smart casual"
+    ],
+    "image": "assets/products/tapered-tech-trousers.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "low-top-court-sneakers",
+    "label": "SHOES",
+    "name": "Low-Top Court Sneakers",
+    "brand": "Placeholder Brand",
+    "price": 44.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Off-White",
+    "sizes": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "category": "shoes",
+    "tags": [
+      "off-white",
+      "court",
+      "minimal"
+    ],
+    "image": "assets/products/low-top-court-sneakers.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "silver-chain-necklace",
+    "label": "ACCESSORY",
+    "name": "Silver Chain Necklace",
+    "brand": "Placeholder Brand",
+    "price": 15.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Silver",
+    "sizes": [
+      "One Size"
+    ],
+    "category": "accessory",
+    "tags": [
+      "silver",
+      "necklace"
+    ],
+    "image": "assets/products/silver-chain-necklace.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "off-white-mock-neck",
+    "label": "TOP",
+    "name": "Off-White Mock Neck Tee",
+    "brand": "Placeholder Brand",
+    "price": 26.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Off-White",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "off-white",
+      "minimal"
+    ],
+    "image": "assets/products/off-white-mock-neck.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "straight-fit-trousers",
+    "label": "BOTTOM",
+    "name": "Straight Fit Trousers",
+    "brand": "Placeholder Brand",
+    "price": 48.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Stone",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "category": "bottom",
+    "tags": [
+      "stone",
+      "minimal"
+    ],
+    "image": "assets/products/straight-fit-trousers.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "matte-steel-watch",
+    "label": "ACCESSORY",
+    "name": "Matte Steel Watch",
+    "brand": "Placeholder Brand",
+    "price": 59.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Steel",
+    "sizes": [
+      "One Size"
+    ],
+    "category": "accessory",
+    "tags": [
+      "steel",
+      "watch",
+      "minimal"
+    ],
+    "image": "assets/products/matte-steel-watch.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "performance-training-tee",
+    "label": "TOP",
+    "name": "Performance Training Tee",
+    "brand": "Placeholder Brand",
+    "price": 24.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "black",
+      "active",
+      "training"
+    ],
+    "image": "assets/products/performance-training-tee.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "tapered-jogger-pants",
+    "label": "BOTTOM",
+    "name": "Tapered Jogger Pants",
+    "brand": "Placeholder Brand",
+    "price": 42.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Charcoal",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "category": "bottom",
+    "tags": [
+      "charcoal",
+      "active",
+      "joggers"
+    ],
+    "image": "assets/products/tapered-jogger-pants.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "knit-runner-sneakers",
+    "label": "SHOES",
+    "name": "Knit Runner Sneakers",
+    "brand": "Placeholder Brand",
+    "price": 54.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Grey",
+    "sizes": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "category": "shoes",
+    "tags": [
+      "grey",
+      "active",
+      "runner"
+    ],
+    "image": "assets/products/knit-runner-sneakers.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "training-crossbody-bag",
+    "label": "ACCESSORY",
+    "name": "Training Crossbody Bag",
+    "brand": "Placeholder Brand",
+    "price": 22.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "One Size"
+    ],
+    "category": "accessory",
+    "tags": [
+      "black",
+      "active",
+      "bag"
+    ],
+    "image": "assets/products/training-crossbody-bag.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "silk-blend-shirt",
+    "label": "TOP",
+    "name": "Silk-Blend Black Shirt",
+    "brand": "Placeholder Brand",
+    "price": 58.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "black",
+      "date night",
+      "shirt"
+    ],
+    "image": "assets/products/silk-blend-shirt.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "slim-tailored-trousers",
+    "label": "BOTTOM",
+    "name": "Slim Tailored Trousers",
+    "brand": "Placeholder Brand",
+    "price": 56.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "category": "bottom",
+    "tags": [
+      "black",
+      "date night",
+      "tailored"
+    ],
+    "image": "assets/products/slim-tailored-trousers.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "leather-chelsea-boots",
+    "label": "SHOES",
+    "name": "Leather Chelsea Boots",
+    "brand": "Placeholder Brand",
+    "price": 89.99,
+    "originalPrice": 104.99,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "category": "shoes",
+    "tags": [
+      "black",
+      "date night",
+      "boots"
+    ],
+    "image": "assets/products/leather-chelsea-boots.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "structured-knit-polo",
+    "label": "TOP",
+    "name": "Structured Knit Polo",
+    "brand": "Placeholder Brand",
+    "price": 38.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Charcoal",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "charcoal",
+      "smart casual",
+      "polo"
+    ],
+    "image": "assets/products/structured-knit-polo.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "suede-derby-shoes",
+    "label": "SHOES",
+    "name": "Suede Derby Shoes",
+    "brand": "Placeholder Brand",
+    "price": 74.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Grey",
+    "sizes": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "category": "shoes",
+    "tags": [
+      "grey",
+      "smart casual",
+      "derby"
+    ],
+    "image": "assets/products/suede-derby-shoes.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "leather-strap-watch",
+    "label": "ACCESSORY",
+    "name": "Leather Strap Watch",
+    "brand": "Placeholder Brand",
+    "price": 64.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Brown",
+    "sizes": [
+      "One Size"
+    ],
+    "category": "accessory",
+    "tags": [
+      "brown",
+      "smart casual",
+      "watch"
+    ],
+    "image": "assets/products/leather-strap-watch.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "essential-straight-denim",
+    "label": "BOTTOM",
+    "name": "Essential Straight Denim",
+    "brand": "Placeholder Brand",
+    "price": 46.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Indigo",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "category": "bottom",
+    "tags": [
+      "indigo",
+      "essentials",
+      "denim"
+    ],
+    "image": "assets/products/essential-straight-denim.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "canvas-tote-bag",
+    "label": "ACCESSORY",
+    "name": "Canvas Tote Bag",
+    "brand": "Placeholder Brand",
+    "price": 19.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Off-White",
+    "sizes": [
+      "One Size"
+    ],
+    "category": "accessory",
+    "tags": [
+      "off-white",
+      "essentials",
+      "bag"
+    ],
+    "image": "assets/products/canvas-tote-bag.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "satin-slip-dress",
+    "label": "DRESS",
+    "name": "Satin Slip Dress",
+    "brand": "Placeholder Brand",
+    "price": 68.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "category": "dress",
+    "tags": [
+      "black",
+      "date night",
+      "dress"
+    ],
+    "image": "assets/products/satin-slip-dress.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "strap-heeled-sandals",
+    "label": "SHOES",
+    "name": "Strap Heeled Sandals",
+    "brand": "Placeholder Brand",
+    "price": 62.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Silver",
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "category": "shoes",
+    "tags": [
+      "silver",
+      "date night",
+      "heels"
+    ],
+    "image": "assets/products/strap-heeled-sandals.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "silver-drop-earrings",
+    "label": "ACCESSORY",
+    "name": "Silver Drop Earrings",
+    "brand": "Placeholder Brand",
+    "price": 16.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Silver",
+    "sizes": [
+      "One Size"
+    ],
+    "category": "accessory",
+    "tags": [
+      "silver",
+      "date night",
+      "earrings"
+    ],
+    "image": "assets/products/silver-drop-earrings.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "structured-mini-bag",
+    "label": "ACCESSORY",
+    "name": "Structured Mini Bag",
+    "brand": "Placeholder Brand",
+    "price": 44.99,
+    "originalPrice": 54.99,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "One Size"
+    ],
+    "category": "accessory",
+    "tags": [
+      "black",
+      "date night",
+      "bag"
+    ],
+    "image": "assets/products/structured-mini-bag.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "ribbed-knit-top",
+    "label": "TOP",
+    "name": "Ribbed Knit Top",
+    "brand": "Placeholder Brand",
+    "price": 27.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Off-White",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "off-white",
+      "minimal"
+    ],
+    "image": "assets/products/ribbed-knit-top.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "wide-leg-trousers-w",
+    "label": "BOTTOM",
+    "name": "Wide-Leg Tailored Trousers",
+    "brand": "Placeholder Brand",
+    "price": 49.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Stone",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "category": "bottom",
+    "tags": [
+      "stone",
+      "minimal"
+    ],
+    "image": "assets/products/wide-leg-trousers-w.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "minimal-leather-mules",
+    "label": "SHOES",
+    "name": "Minimal Leather Mules",
+    "brand": "Placeholder Brand",
+    "price": 54.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Off-White",
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "category": "shoes",
+    "tags": [
+      "off-white",
+      "minimal",
+      "mules"
+    ],
+    "image": "assets/products/minimal-leather-mules.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "seamless-training-tank",
+    "label": "TOP",
+    "name": "Seamless Training Tank",
+    "brand": "Placeholder Brand",
+    "price": 22.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "black",
+      "active",
+      "tank"
+    ],
+    "image": "assets/products/seamless-training-tank.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "high-waist-leggings",
+    "label": "BOTTOM",
+    "name": "High-Waist Leggings",
+    "brand": "Placeholder Brand",
+    "price": 38.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Charcoal",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "category": "bottom",
+    "tags": [
+      "charcoal",
+      "active",
+      "leggings"
+    ],
+    "image": "assets/products/high-waist-leggings.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "cushion-runner-sneakers",
+    "label": "SHOES",
+    "name": "Cushion Runner Sneakers",
+    "brand": "Placeholder Brand",
+    "price": 58.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Grey",
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "category": "shoes",
+    "tags": [
+      "grey",
+      "active",
+      "runner"
+    ],
+    "image": "assets/products/cushion-runner-sneakers.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "cropped-boxy-hoodie",
+    "label": "TOP",
+    "name": "Cropped Boxy Hoodie",
+    "brand": "Placeholder Brand",
+    "price": 44.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "black",
+      "streetwear",
+      "hoodie"
+    ],
+    "image": "assets/products/cropped-boxy-hoodie.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "relaxed-cargo-pants-w",
+    "label": "BOTTOM",
+    "name": "Relaxed Cargo Pants",
+    "brand": "Placeholder Brand",
+    "price": 47.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Charcoal",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "category": "bottom",
+    "tags": [
+      "charcoal",
+      "streetwear",
+      "cargo"
+    ],
+    "image": "assets/products/relaxed-cargo-pants-w.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "mini-shoulder-bag",
+    "label": "ACCESSORY",
+    "name": "Mini Shoulder Bag",
+    "brand": "Placeholder Brand",
+    "price": 32.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "One Size"
+    ],
+    "category": "accessory",
+    "tags": [
+      "black",
+      "streetwear",
+      "bag"
+    ],
+    "image": "assets/products/mini-shoulder-bag.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "silk-blouse",
+    "label": "TOP",
+    "name": "Silk-Blend Blouse",
+    "brand": "Placeholder Brand",
+    "price": 52.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Off-White",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "off-white",
+      "smart casual",
+      "blouse"
+    ],
+    "image": "assets/products/silk-blouse.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "tailored-wide-pants",
+    "label": "BOTTOM",
+    "name": "Tailored Wide-Leg Pants",
+    "brand": "Placeholder Brand",
+    "price": 54.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "category": "bottom",
+    "tags": [
+      "black",
+      "smart casual"
+    ],
+    "image": "assets/products/tailored-wide-pants.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "pointed-flat-shoes",
+    "label": "SHOES",
+    "name": "Pointed Flat Shoes",
+    "brand": "Placeholder Brand",
+    "price": 49.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "category": "shoes",
+    "tags": [
+      "black",
+      "smart casual",
+      "flats"
+    ],
+    "image": "assets/products/pointed-flat-shoes.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "essential-straight-jeans",
+    "label": "BOTTOM",
+    "name": "Essential Straight Jeans",
+    "brand": "Placeholder Brand",
+    "price": 44.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Indigo",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "category": "bottom",
+    "tags": [
+      "indigo",
+      "essentials",
+      "denim"
+    ],
+    "image": "assets/products/essential-straight-jeans.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "classic-white-sneakers",
+    "label": "SHOES",
+    "name": "Classic White Sneakers",
+    "brand": "Placeholder Brand",
+    "price": 42.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "White",
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "category": "shoes",
+    "tags": [
+      "white",
+      "essentials",
+      "sneakers"
+    ],
+    "image": "assets/products/classic-white-sneakers.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "boxy-crew-tee",
+    "label": "TOP",
+    "name": "Boxy Crew Neck Tee",
+    "brand": "Placeholder Brand",
+    "price": 25.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Stone",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "stone",
+      "minimal"
+    ],
+    "image": "assets/products/boxy-crew-tee.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "relaxed-tapered-pants",
+    "label": "BOTTOM",
+    "name": "Relaxed Tapered Pants",
+    "brand": "Placeholder Brand",
+    "price": 46.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Stone",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "category": "bottom",
+    "tags": [
+      "stone",
+      "minimal"
+    ],
+    "image": "assets/products/relaxed-tapered-pants.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "heavyweight-hoodie",
+    "label": "TOP",
+    "name": "Heavyweight Pullover Hoodie",
+    "brand": "Placeholder Brand",
+    "price": 49.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "black",
+      "streetwear",
+      "hoodie"
+    ],
+    "image": "assets/products/heavyweight-hoodie.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "chunky-trail-sneakers",
+    "label": "SHOES",
+    "name": "Chunky Trail Sneakers",
+    "brand": "Placeholder Brand",
+    "price": 64.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Grey",
+    "sizes": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "category": "shoes",
+    "tags": [
+      "grey",
+      "streetwear",
+      "chunky"
+    ],
+    "image": "assets/products/chunky-trail-sneakers.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "beanie-knit-cap",
+    "label": "ACCESSORY",
+    "name": "Ribbed Knit Beanie",
+    "brand": "Placeholder Brand",
+    "price": 14.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "One Size"
+    ],
+    "category": "accessory",
+    "tags": [
+      "black",
+      "streetwear",
+      "beanie"
+    ],
+    "image": "assets/products/beanie-knit-cap.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "sport-crossbody-pouch",
+    "label": "ACCESSORY",
+    "name": "Sport Crossbody Pouch",
+    "brand": "Placeholder Brand",
+    "price": 20.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "One Size"
+    ],
+    "category": "accessory",
+    "tags": [
+      "black",
+      "active",
+      "pouch"
+    ],
+    "image": "assets/products/sport-crossbody-pouch.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "relaxed-oxford-shirt",
+    "label": "TOP",
+    "name": "Relaxed Oxford Shirt",
+    "brand": "Placeholder Brand",
+    "price": 46.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Off-White",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "off-white",
+      "smart casual",
+      "shirt"
+    ],
+    "image": "assets/products/relaxed-oxford-shirt.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "relaxed-satin-shirt",
+    "label": "TOP",
+    "name": "Relaxed Satin Shirt",
+    "brand": "Placeholder Brand",
+    "price": 54.99,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Black",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "category": "top",
+    "tags": [
+      "black",
+      "date night",
+      "satin"
+    ],
+    "image": "assets/products/relaxed-satin-shirt.svg",
+    "amazonLink": "PASTE-AMAZON-SITESTRIPE-LINK-HERE"
+  },
+  {
+    "id": "green-plaid-flannel-shirt",
+    "label": "TOP",
+    "name": "Green Plaid Flannel Shirt",
+    "brand": "Dubinik",
+    "price": null,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Green",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "category": "top",
+    "tags": [
+      "green",
+      "plaid",
+      "flannel",
+      "utility",
+      "streetwear"
+    ],
+    "image": "assets/products/green-plaid-flannel-shirt.jpg",
+    "amazonLink": "https://amzn.to/4fK3SSN"
+  },
+  {
+    "id": "acid-wash-zip-hoodie",
+    "label": "MID LAYER",
+    "name": "Acid Wash Heavyweight Zip Hoodie",
+    "brand": "Dnzzs",
+    "price": null,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Grey",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "category": "top",
+    "tags": [
+      "grey",
+      "acid wash",
+      "hoodie",
+      "heavyweight",
+      "streetwear"
+    ],
+    "image": "assets/products/acid-wash-zip-hoodie.jpg",
+    "amazonLink": "https://amzn.to/4wXkJaJ"
+  },
+  {
+    "id": "lightweight-shell-windbreaker",
+    "label": "OUTERWEAR",
+    "name": "Lightweight Shell Windbreaker",
+    "brand": "URBANFIND",
+    "price": null,
+    "originalPrice": null,
+    "currency": "USD",
+    "color": "Navy Blue",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "category": "outerwear",
+    "tags": [
+      "navy",
+      "windbreaker",
+      "shell jacket",
+      "outdoor",
+      "streetwear"
+    ],
+    "image": "assets/products/lightweight-shell-windbreaker.jpg",
+    "amazonLink": "https://amzn.to/4yvzGlK"
+  }
+]

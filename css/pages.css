@@ -1,0 +1,85 @@
+/* Listing pages (men/women/unisex/new/fits) */
+.listing-head {
+  padding-top: clamp(120px, 16vw, 170px);
+  padding-bottom: 32px;
+}
+.listing-head .eyebrow { margin-bottom: 14px; }
+.listing-head h1 { font-size: clamp(40px, 8vw, 88px); }
+
+/* Article */
+.article-hero { padding-top: clamp(120px, 16vw, 170px); }
+.article-hero .img-frame { aspect-ratio: 16/9; border-radius: var(--radius-md); margin-top: 24px; }
+.article-body {
+  max-width: 68ch;
+  margin: 0 auto;
+  padding-block: clamp(32px, 5vw, 64px);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.article-body p { font-size: 16px; line-height: 1.8; color: var(--light-silver); }
+.article-body h2 { font-size: 22px; margin-top: 16px; text-transform: none; }
+
+/* About */
+.about-block {
+  padding-top: clamp(120px, 16vw, 170px);
+  max-width: 68ch;
+}
+.about-block h1 { font-size: clamp(40px, 7vw, 76px); }
+.about-block p { margin-top: 18px; font-size: 16px; }
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 48px;
+}
+.value-card { border: 1px solid var(--border); border-radius: var(--radius-md); padding: 22px; }
+.value-card h3 { font-size: 15px; margin-bottom: 8px; }
+.value-card p { font-size: 13px; }
+
+/* Admin preview */
+.admin-banner {
+  margin-top: 84px;
+  background: var(--dark-gray);
+  border-bottom: 1px solid var(--border);
+  padding: 14px var(--gutter);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.admin-disabled {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+.admin-layout { padding-block: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+.admin-editor textarea {
+  width: 100%;
+  min-height: 420px;
+  background: var(--charcoal);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  font-family: "SF Mono", Menlo, monospace;
+  font-size: 12px;
+  color: var(--off-white);
+}
+.admin-errors { color: #e08b8b; font-size: 12px; margin-top: 10px; white-space: pre-wrap; }
+.admin-preview-card { border: 1px solid var(--border); border-radius: var(--radius-md); padding: 20px; }
+
+/* Fit page */
+.fit-page-hero {
+  padding-top: clamp(120px, 16vw, 170px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(24px, 4vw, 56px);
+}
+.fit-page-hero .img-frame { aspect-ratio: 4/5; border-radius: var(--radius-md); }
+.fit-page-info h1 { font-size: clamp(32px, 5vw, 52px); }
+.fit-page-info p { margin-top: 14px; max-width: 46ch; }
+.fit-page-actions { display: flex; gap: 12px; margin-top: 24px; }
+.similar-fits, .recent-fits { padding-block: clamp(32px, 5vw, 64px); }

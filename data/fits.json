@@ -1,0 +1,589 @@
+[
+  {
+    "id": "midnight-movement-001",
+    "fitNumber": "001",
+    "title": "Midnight Movement",
+    "slug": "midnight-movement",
+    "gender": "Men",
+    "style": "Streetwear",
+    "description": "A dark oversized streetwear combination built around clean proportions and understated accessories.",
+    "coverImage": "assets/fits/midnight-movement/cover.svg",
+    "fullImage": "assets/fits/midnight-movement/full.svg",
+    "imagePosition": "center 20%",
+    "featured": true,
+    "newArrival": true,
+    "dateAdded": "2026-07-19",
+    "tags": [
+      "black",
+      "cargo",
+      "essentials",
+      "minimal",
+      "oversized",
+      "silver",
+      "sneakers",
+      "streetwear",
+      "sunglasses",
+      "white"
+    ],
+    "productIds": [
+      "oversized-black-tee",
+      "wide-leg-cargo-pants",
+      "minimal-leather-sneakers",
+      "silver-frame-sunglasses"
+    ]
+  },
+  {
+    "id": "concrete-minimal-002",
+    "fitNumber": "002",
+    "title": "Concrete Minimal",
+    "slug": "concrete-minimal",
+    "gender": "Men",
+    "style": "Minimal",
+    "description": "Stone and off-white tones layered into a quiet, architectural silhouette.",
+    "coverImage": "assets/fits/concrete-minimal/cover.svg",
+    "fullImage": "assets/fits/concrete-minimal/full.svg",
+    "imagePosition": "center 20%",
+    "featured": true,
+    "newArrival": false,
+    "dateAdded": "2026-07-18",
+    "tags": [
+      "court",
+      "minimal",
+      "off-white",
+      "steel",
+      "stone",
+      "watch"
+    ],
+    "productIds": [
+      "off-white-mock-neck",
+      "straight-fit-trousers",
+      "low-top-court-sneakers",
+      "matte-steel-watch"
+    ]
+  },
+  {
+    "id": "silver-circuit-003",
+    "fitNumber": "003",
+    "title": "Silver Circuit",
+    "slug": "silver-circuit",
+    "gender": "Men",
+    "style": "Active",
+    "description": "Technical layers designed for movement without losing a sharp edge.",
+    "coverImage": "assets/fits/silver-circuit/cover.svg",
+    "fullImage": "assets/fits/silver-circuit/full.svg",
+    "imagePosition": "center 20%",
+    "featured": false,
+    "newArrival": true,
+    "dateAdded": "2026-07-17",
+    "tags": [
+      "active",
+      "bag",
+      "black",
+      "charcoal",
+      "grey",
+      "joggers",
+      "runner",
+      "training"
+    ],
+    "productIds": [
+      "performance-training-tee",
+      "tapered-jogger-pants",
+      "knit-runner-sneakers",
+      "training-crossbody-bag"
+    ]
+  },
+  {
+    "id": "after-hours-edit-004",
+    "fitNumber": "004",
+    "title": "After Hours Edit",
+    "slug": "after-hours-edit",
+    "gender": "Men",
+    "style": "Date Night",
+    "description": "Low-light tailoring built for late arrivals and clean exits.",
+    "coverImage": "assets/fits/after-hours-edit/cover.svg",
+    "fullImage": "assets/fits/after-hours-edit/full.svg",
+    "imagePosition": "center 20%",
+    "featured": true,
+    "newArrival": false,
+    "dateAdded": "2026-07-16",
+    "tags": [
+      "black",
+      "boots",
+      "date night",
+      "necklace",
+      "shirt",
+      "silver",
+      "tailored"
+    ],
+    "productIds": [
+      "silk-blend-shirt",
+      "slim-tailored-trousers",
+      "leather-chelsea-boots",
+      "silver-chain-necklace"
+    ]
+  },
+  {
+    "id": "boardroom-drift-005",
+    "fitNumber": "005",
+    "title": "Boardroom Drift",
+    "slug": "boardroom-drift",
+    "gender": "Men",
+    "style": "Smart Casual",
+    "description": "Structured knitwear and tapered tailoring for a modern working wardrobe.",
+    "coverImage": "assets/fits/boardroom-drift/cover.svg",
+    "fullImage": "assets/fits/boardroom-drift/full.svg",
+    "imagePosition": "center 20%",
+    "featured": false,
+    "newArrival": false,
+    "dateAdded": "2026-07-15",
+    "tags": [
+      "black",
+      "brown",
+      "charcoal",
+      "derby",
+      "grey",
+      "polo",
+      "smart casual",
+      "tapered",
+      "watch"
+    ],
+    "productIds": [
+      "structured-knit-polo",
+      "tapered-tech-trousers",
+      "suede-derby-shoes",
+      "leather-strap-watch"
+    ]
+  },
+  {
+    "id": "base-layer-01-006",
+    "fitNumber": "006",
+    "title": "Base Layer 01",
+    "slug": "base-layer-01",
+    "gender": "Men",
+    "style": "Essentials",
+    "description": "The foundation pieces every rotation depends on.",
+    "coverImage": "assets/fits/base-layer-01/cover.svg",
+    "fullImage": "assets/fits/base-layer-01/full.svg",
+    "imagePosition": "center 20%",
+    "featured": false,
+    "newArrival": true,
+    "dateAdded": "2026-07-14",
+    "tags": [
+      "bag",
+      "charcoal",
+      "denim",
+      "essentials",
+      "indigo",
+      "minimal",
+      "off-white",
+      "sneakers",
+      "white"
+    ],
+    "productIds": [
+      "charcoal-crew-sweatshirt",
+      "essential-straight-denim",
+      "minimal-leather-sneakers",
+      "canvas-tote-bag"
+    ]
+  },
+  {
+    "id": "velvet-static-007",
+    "fitNumber": "007",
+    "title": "Velvet Static",
+    "slug": "velvet-static",
+    "gender": "Women",
+    "style": "Date Night",
+    "description": "A slip silhouette finished with cold-metal accessories.",
+    "coverImage": "assets/fits/velvet-static/cover.svg",
+    "fullImage": "assets/fits/velvet-static/full.svg",
+    "imagePosition": "center 20%",
+    "featured": true,
+    "newArrival": true,
+    "dateAdded": "2026-07-19",
+    "tags": [
+      "bag",
+      "black",
+      "date night",
+      "dress",
+      "earrings",
+      "heels",
+      "silver"
+    ],
+    "productIds": [
+      "satin-slip-dress",
+      "strap-heeled-sandals",
+      "silver-drop-earrings",
+      "structured-mini-bag"
+    ]
+  },
+  {
+    "id": "off-duty-frame-008",
+    "fitNumber": "008",
+    "title": "Off-Duty Frame",
+    "slug": "off-duty-frame",
+    "gender": "Women",
+    "style": "Minimal",
+    "description": "Soft neutrals and relaxed tailoring for an unforced off-duty look.",
+    "coverImage": "assets/fits/off-duty-frame/cover.svg",
+    "fullImage": "assets/fits/off-duty-frame/full.svg",
+    "imagePosition": "center 20%",
+    "featured": true,
+    "newArrival": false,
+    "dateAdded": "2026-07-13",
+    "tags": [
+      "minimal",
+      "mules",
+      "off-white",
+      "steel",
+      "stone",
+      "watch"
+    ],
+    "productIds": [
+      "ribbed-knit-top",
+      "wide-leg-trousers-w",
+      "minimal-leather-mules",
+      "matte-steel-watch"
+    ]
+  },
+  {
+    "id": "pulse-training-009",
+    "fitNumber": "009",
+    "title": "Pulse Training",
+    "slug": "pulse-training",
+    "gender": "Women",
+    "style": "Active",
+    "description": "Seamless layers and cushioned movement for high-output days.",
+    "coverImage": "assets/fits/pulse-training/cover.svg",
+    "fullImage": "assets/fits/pulse-training/full.svg",
+    "imagePosition": "center 20%",
+    "featured": false,
+    "newArrival": false,
+    "dateAdded": "2026-07-12",
+    "tags": [
+      "active",
+      "bag",
+      "black",
+      "charcoal",
+      "grey",
+      "leggings",
+      "runner",
+      "tank"
+    ],
+    "productIds": [
+      "seamless-training-tank",
+      "high-waist-leggings",
+      "cushion-runner-sneakers",
+      "training-crossbody-bag"
+    ]
+  },
+  {
+    "id": "grid-street-010",
+    "fitNumber": "010",
+    "title": "Grid Street",
+    "slug": "grid-street",
+    "gender": "Women",
+    "style": "Streetwear",
+    "description": "Cropped proportions and cargo utility for an off-grid edit.",
+    "coverImage": "assets/fits/grid-street/cover.svg",
+    "fullImage": "assets/fits/grid-street/full.svg",
+    "imagePosition": "center 20%",
+    "featured": false,
+    "newArrival": true,
+    "dateAdded": "2026-07-11",
+    "tags": [
+      "bag",
+      "black",
+      "cargo",
+      "charcoal",
+      "court",
+      "hoodie",
+      "minimal",
+      "off-white",
+      "streetwear"
+    ],
+    "productIds": [
+      "cropped-boxy-hoodie",
+      "relaxed-cargo-pants-w",
+      "low-top-court-sneakers",
+      "mini-shoulder-bag"
+    ]
+  },
+  {
+    "id": "tailored-ease-011",
+    "fitNumber": "011",
+    "title": "Tailored Ease",
+    "slug": "tailored-ease",
+    "gender": "Women",
+    "style": "Smart Casual",
+    "description": "Fluid silk and wide tailoring for a considered smart-casual line.",
+    "coverImage": "assets/fits/tailored-ease/cover.svg",
+    "fullImage": "assets/fits/tailored-ease/full.svg",
+    "imagePosition": "center 20%",
+    "featured": true,
+    "newArrival": false,
+    "dateAdded": "2026-07-10",
+    "tags": [
+      "black",
+      "blouse",
+      "flats",
+      "necklace",
+      "off-white",
+      "silver",
+      "smart casual"
+    ],
+    "productIds": [
+      "silk-blouse",
+      "tailored-wide-pants",
+      "pointed-flat-shoes",
+      "silver-chain-necklace"
+    ]
+  },
+  {
+    "id": "core-edit-02-012",
+    "fitNumber": "012",
+    "title": "Core Edit 02",
+    "slug": "core-edit-02",
+    "gender": "Women",
+    "style": "Essentials",
+    "description": "Repeatable staples built around clean denim and quiet white sneakers.",
+    "coverImage": "assets/fits/core-edit-02/cover.svg",
+    "fullImage": "assets/fits/core-edit-02/full.svg",
+    "imagePosition": "center 20%",
+    "featured": false,
+    "newArrival": false,
+    "dateAdded": "2026-07-09",
+    "tags": [
+      "bag",
+      "denim",
+      "essentials",
+      "indigo",
+      "minimal",
+      "off-white",
+      "sneakers",
+      "white"
+    ],
+    "productIds": [
+      "ribbed-knit-top",
+      "essential-straight-jeans",
+      "classic-white-sneakers",
+      "canvas-tote-bag"
+    ]
+  },
+  {
+    "id": "neutral-circuit-013",
+    "fitNumber": "013",
+    "title": "Neutral Circuit",
+    "slug": "neutral-circuit",
+    "gender": "Unisex",
+    "style": "Minimal",
+    "description": "A stone-on-stone silhouette with restrained hardware.",
+    "coverImage": "assets/fits/neutral-circuit/cover.svg",
+    "fullImage": "assets/fits/neutral-circuit/full.svg",
+    "imagePosition": "center 20%",
+    "featured": false,
+    "newArrival": true,
+    "dateAdded": "2026-07-08",
+    "tags": [
+      "court",
+      "minimal",
+      "off-white",
+      "steel",
+      "stone",
+      "watch"
+    ],
+    "productIds": [
+      "boxy-crew-tee",
+      "relaxed-tapered-pants",
+      "low-top-court-sneakers",
+      "matte-steel-watch"
+    ]
+  },
+  {
+    "id": "static-layers-014",
+    "fitNumber": "014",
+    "title": "Static Layers",
+    "slug": "static-layers",
+    "gender": "Unisex",
+    "style": "Streetwear",
+    "description": "Heavyweight layering built for cold-weather movement.",
+    "coverImage": "assets/fits/static-layers/cover.svg",
+    "fullImage": "assets/fits/static-layers/full.svg",
+    "imagePosition": "center 20%",
+    "featured": true,
+    "newArrival": true,
+    "dateAdded": "2026-07-19",
+    "tags": [
+      "beanie",
+      "black",
+      "cargo",
+      "chunky",
+      "grey",
+      "hoodie",
+      "streetwear"
+    ],
+    "productIds": [
+      "heavyweight-hoodie",
+      "wide-leg-cargo-pants",
+      "chunky-trail-sneakers",
+      "beanie-knit-cap"
+    ]
+  },
+  {
+    "id": "motion-basics-015",
+    "fitNumber": "015",
+    "title": "Motion Basics",
+    "slug": "motion-basics",
+    "gender": "Unisex",
+    "style": "Active",
+    "description": "A shared training uniform built for either side of the gender line.",
+    "coverImage": "assets/fits/motion-basics/cover.svg",
+    "fullImage": "assets/fits/motion-basics/full.svg",
+    "imagePosition": "center 20%",
+    "featured": false,
+    "newArrival": false,
+    "dateAdded": "2026-07-07",
+    "tags": [
+      "active",
+      "black",
+      "charcoal",
+      "grey",
+      "joggers",
+      "pouch",
+      "runner",
+      "training"
+    ],
+    "productIds": [
+      "performance-training-tee",
+      "tapered-jogger-pants",
+      "knit-runner-sneakers",
+      "sport-crossbody-pouch"
+    ]
+  },
+  {
+    "id": "low-light-smart-016",
+    "fitNumber": "016",
+    "title": "Low Light Smart",
+    "slug": "low-light-smart",
+    "gender": "Unisex",
+    "style": "Smart Casual",
+    "description": "Relaxed oxford tailoring for evenings that start smart and stay easy.",
+    "coverImage": "assets/fits/low-light-smart/cover.svg",
+    "fullImage": "assets/fits/low-light-smart/full.svg",
+    "imagePosition": "center 20%",
+    "featured": false,
+    "newArrival": false,
+    "dateAdded": "2026-07-06",
+    "tags": [
+      "brown",
+      "derby",
+      "grey",
+      "minimal",
+      "off-white",
+      "shirt",
+      "smart casual",
+      "stone",
+      "watch"
+    ],
+    "productIds": [
+      "relaxed-oxford-shirt",
+      "straight-fit-trousers",
+      "suede-derby-shoes",
+      "leather-strap-watch"
+    ]
+  },
+  {
+    "id": "essential-frame-017",
+    "fitNumber": "017",
+    "title": "Essential Frame",
+    "slug": "essential-frame",
+    "gender": "Unisex",
+    "style": "Essentials",
+    "description": "A neutral, repeatable frame for everyday rotation.",
+    "coverImage": "assets/fits/essential-frame/cover.svg",
+    "fullImage": "assets/fits/essential-frame/full.svg",
+    "imagePosition": "center 20%",
+    "featured": false,
+    "newArrival": false,
+    "dateAdded": "2026-07-05",
+    "tags": [
+      "bag",
+      "denim",
+      "essentials",
+      "indigo",
+      "minimal",
+      "off-white",
+      "sneakers",
+      "stone",
+      "white"
+    ],
+    "productIds": [
+      "boxy-crew-tee",
+      "essential-straight-denim",
+      "classic-white-sneakers",
+      "canvas-tote-bag"
+    ]
+  },
+  {
+    "id": "afterglow-date-018",
+    "fitNumber": "018",
+    "title": "Afterglow Date",
+    "slug": "afterglow-date",
+    "gender": "Unisex",
+    "style": "Date Night",
+    "description": "Satin and slim tailoring for a shared date-night silhouette.",
+    "coverImage": "assets/fits/afterglow-date/cover.svg",
+    "fullImage": "assets/fits/afterglow-date/full.svg",
+    "imagePosition": "center 20%",
+    "featured": true,
+    "newArrival": false,
+    "dateAdded": "2026-07-04",
+    "tags": [
+      "black",
+      "boots",
+      "date night",
+      "earrings",
+      "satin",
+      "silver",
+      "tailored"
+    ],
+    "productIds": [
+      "relaxed-satin-shirt",
+      "slim-tailored-trousers",
+      "leather-chelsea-boots",
+      "silver-drop-earrings"
+    ]
+  },
+  {
+    "id": "off-grid-layers-019",
+    "fitNumber": "019",
+    "title": "Off-Grid Layers",
+    "slug": "off-grid-layers",
+    "gender": "Men",
+    "style": "Streetwear",
+    "description": "A real, fully layered utility fit built from a plaid flannel base, a heavyweight zip hoodie, and a shell windbreaker on top.",
+    "coverImage": "assets/fits/off-grid-layers/cover.svg",
+    "fullImage": "assets/fits/off-grid-layers/full.svg",
+    "imagePosition": "center 20%",
+    "featured": true,
+    "newArrival": true,
+    "dateAdded": "2026-07-20",
+    "tags": [
+      "green",
+      "grey",
+      "navy",
+      "plaid",
+      "flannel",
+      "hoodie",
+      "windbreaker",
+      "streetwear",
+      "layered"
+    ],
+    "productIds": [
+      "green-plaid-flannel-shirt",
+      "acid-wash-zip-hoodie",
+      "lightweight-shell-windbreaker",
+      "wide-leg-cargo-pants",
+      "minimal-leather-sneakers"
+    ]
+  }
+]

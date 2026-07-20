@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Preview — Vahntra</title>
+  <meta name="description" content="Local, development-only preview tool for validating fit JSON entries before adding them to data/fits.json.">
+  <link rel="canonical" href="https://vahntra.com/admin-preview.html">
+  <meta property="og:title" content="Admin Preview — Vahntra">
+  <meta property="og:description" content="Local, development-only preview tool for validating fit JSON entries before adding them to data/fits.json.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vahntra.com/admin-preview.html">
+  <link rel="icon" href="assets/logo/vahntra-logo.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/intro.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/fit-grid.css">
+  <link rel="stylesheet" href="css/fit-breakdown.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<body data-page="admin-preview">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="intro" data-intro>
+    <a class="intro-skip" href="#" data-intro-skip>SKIP →</a>
+    <div class="intro-content">
+      <img class="intro-logo" src="assets/logo/vahntra-logo.png" alt="">
+      <div class="intro-wordmark">VAHNTRA</div>
+      <p class="intro-tagline">CURATED FITS FOR MODERN MOVEMENT</p>
+      <div class="intro-line"><div class="intro-line-fill"></div></div>
+      <button type="button" class="btn btn-outline intro-enter" data-intro-enter>Enter</button>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo/vahntra-logo.png" alt="Vahntra">
+        VAHNTRA
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="fits.html">Fits</a>
+        <a href="new.html">New</a>
+        <a href="men.html">Men</a>
+        <a href="women.html">Women</a>
+        <a href="saved.html">Saved</a>
+        <a href="journal.html">Journal</a>
+        <a href="index.html#newsletter">Updates</a>
+      </nav>
+      <div class="header-actions">
+        <button type="button" class="icon-btn" data-search-toggle aria-label="Search">
+          <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" fill="none"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        </button>
+        <a class="saved-pill" href="saved.html">
+          <svg viewBox="0 0 24 24" stroke-width="1.6" stroke="currentColor" width="14" height="14"><path d="M12 20s-7.5-4.6-10-9.3C.4 7.4 2.2 4 5.7 4 8 4 10 5.4 12 8c2-2.6 4-4 6.3-4 3.5 0 5.3 3.4 3.7 6.7C19.5 15.4 12 20 12 20z"/></svg>
+          Saved <span data-saved-count>0</span>
+        </a>
+        <button type="button" class="icon-btn mobile-menu-btn" data-mobile-menu-toggle aria-label="Open menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" fill="none"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" data-mobile-nav aria-label="Mobile">
+    <a href="fits.html">Fits</a>
+    <a href="new.html">New</a>
+    <a href="men.html">Men</a>
+    <a href="women.html">Women</a>
+    <a href="unisex.html">Unisex</a>
+    <a href="saved.html">Saved</a>
+    <a href="journal.html">Journal</a>
+    <a href="about.html">About</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main id="main">
+    <div class="admin-banner">Development Preview — Disabled in production by default. No hardcoded credentials. Writes nothing to production data.</div>
+    <section class="container section">
+      <div data-admin-disabled hidden class="admin-disabled">
+        <div>
+          <h2>Admin Preview Is Disabled</h2>
+          <p class="text-muted">Set <code>enableAdminPreview: true</code> in <code>js/config.js</code> during local development to use this tool. It should stay disabled in production.</p>
+        </div>
+      </div>
+
+      <div data-admin-enabled hidden>
+        <p class="eyebrow">Local Data Preview</p>
+        <h1 style="margin-bottom:24px;">Fit JSON Preview</h1>
+        <div class="admin-layout">
+          <div class="admin-editor">
+            <p class="label-sm" style="margin-bottom:8px;">Paste a fit object from data/fits.json</p>
+            <textarea data-admin-textarea spellcheck="false" placeholder='{"id": "...", "title": "...", "productIds": ["..."]}'></textarea>
+            <button type="button" class="btn btn-primary" data-admin-validate style="margin-top:12px;">Validate &amp; Preview</button>
+            <p class="admin-errors" data-admin-errors></p>
+          </div>
+          <div class="admin-preview-card" data-admin-preview>
+            <p class="text-muted">Validated fit details will appear here. This preview never writes to data/fits.json — copy validated entries in manually.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">VAHNTRA — FOLLOW THE NEXT EDIT</div>
+        <div class="footer-columns">
+          <div class="footer-col">
+            <h3>Shop</h3>
+            <a href="fits.html">All Fits</a>
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="unisex.html">Unisex</a>
+            <a href="new.html">New Fits</a>
+            <a href="saved.html">Saved Fits</a>
+          </div>
+          <div class="footer-col">
+            <h3>Vahntra</h3>
+            <a href="about.html">About</a>
+            <a href="journal.html">Journal</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="footer-col">
+            <h3>Legal</h3>
+            <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms.html">Terms</a>
+            <a href="accessibility.html">Accessibility</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-current-year></span> Vahntra. All rights reserved.</span>
+        <div class="social-row">
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">Pinterest</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module">
+    import { getProducts } from "./js/data-loader.js";
+
+    const config = window.SITE_CONFIG || {};
+    const disabledEl = document.querySelector("[data-admin-disabled]");
+    const enabledEl = document.querySelector("[data-admin-enabled]");
+
+    if (!config.enableAdminPreview) {
+      disabledEl.hidden = false;
+      enabledEl.hidden = true;
+    } else {
+      disabledEl.hidden = true;
+      enabledEl.hidden = false;
+
+      const textarea = document.querySelector("[data-admin-textarea]");
+      const errorsEl = document.querySelector("[data-admin-errors]");
+      const previewEl = document.querySelector("[data-admin-preview]");
+      const btn = document.querySelector("[data-admin-validate]");
+
+      function validateFit(obj) {
+        const required = ["id", "fitNumber", "title", "slug", "gender", "style", "description", "coverImage", "fullImage", "productIds"];
+        const errors = [];
+        required.forEach((key) => {
+          if (!(key in obj)) errors.push(`Missing field: ${key}`);
+        });
+        if (obj.productIds && !Array.isArray(obj.productIds)) errors.push("productIds must be an array");
+        return errors;
+      }
+
+      btn.addEventListener("click", async () => {
+        errorsEl.textContent = "";
+        let obj;
+        try {
+          obj = JSON.parse(textarea.value);
+        } catch (e) {
+          errorsEl.textContent = `Invalid JSON: ${e.message}`;
+          previewEl.innerHTML = "";
+          return;
+        }
+        const errors = validateFit(obj);
+        if (errors.length) {
+          errorsEl.textContent = errors.join("\n");
+          previewEl.innerHTML = "";
+          return;
+        }
+        const products = await getProducts();
+        const byId = new Map(products.map((p) => [p.id, p]));
+        const missingProducts = obj.productIds.filter((id) => !byId.has(id));
+        previewEl.innerHTML = `
+          <h3>${obj.title}</h3>
+          <p class="text-muted">${obj.gender} &middot; ${obj.style} &middot; ${obj.productIds.length} pieces</p>
+          <p>${obj.description}</p>
+          ${missingProducts.length ? `<p style="color:#e08b8b;">Unknown product IDs: ${missingProducts.join(", ")}</p>` : "<p>All product IDs resolved against data/products.json.</p>"}
+        `;
+        errorsEl.textContent = "Preview only — nothing was written to data/fits.json.";
+      });
+    }
+  </script>
+</body>
+</html>

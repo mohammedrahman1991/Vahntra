@@ -1,0 +1,41 @@
+[
+  {
+    "id": "the-oversized-frame",
+    "title": "The Oversized Frame",
+    "excerpt": "Why proportion, not logos, is carrying modern streetwear right now.",
+    "coverImage": "assets/journal/the-oversized-frame.svg",
+    "dateAdded": "2026-07-15",
+    "readTime": "4 min read",
+    "body": [
+      "Oversized fits have shifted from a trend to a default silhouette. The shift is less about volume for its own sake and more about intentional proportion — a wider top balanced against a tapered or straight leg.",
+      "Vahntra builds its streetwear fits around this balance first, then layers in a single strong accessory rather than several competing ones.",
+      "The result is a silhouette that reads as considered rather than borrowed, regardless of the individual price points involved."
+    ]
+  },
+  {
+    "id": "dressing-for-low-light",
+    "title": "Dressing for Low Light",
+    "excerpt": "A short guide to building date-night fits that hold up under any lighting.",
+    "coverImage": "assets/journal/dressing-for-low-light.svg",
+    "dateAdded": "2026-07-11",
+    "readTime": "3 min read",
+    "body": [
+      "Fabric choice matters more after dark than color. Satin, silk-blends and matte leather all catch low light differently than daytime cotton.",
+      "Our Date Night edit leans on a small number of reflective or metallic accents rather than pattern, since pattern tends to flatten under artificial light.",
+      "Keep the palette close to black, charcoal or off-white, and let one piece — a boot, a bag, a piece of jewelry — carry the shine."
+    ]
+  },
+  {
+    "id": "building-a-repeatable-wardrobe",
+    "title": "Building a Repeatable Wardrobe",
+    "excerpt": "How the Essentials edit is designed to be worn on repeat without looking repeated.",
+    "coverImage": "assets/journal/building-a-repeatable-wardrobe.svg",
+    "dateAdded": "2026-07-05",
+    "readTime": "5 min read",
+    "body": [
+      "A genuinely repeatable wardrobe is built from a small number of neutral, well-proportioned pieces that recombine cleanly.",
+      "Every Essentials fit on Vahntra is built to share pieces with at least one other fit in the edit, so a single purchase compounds across multiple looks.",
+      "Start with denim and a crew neck in a neutral tone, then add one considered accessory. Everything else is optional."
+    ]
+  }
+]

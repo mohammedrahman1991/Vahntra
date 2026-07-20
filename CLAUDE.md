@@ -2,11 +2,9 @@
 ## Project Memory (auto-managed by Cortex)
 
 ### Last Session
-[tool: Bash `git commit -m "$(cat <<'EOF'
-Initial commit: add project config and CLAUDE.md...`]. 3 files changed, 46 insertions(+)
- create mode 100644 .claude/settings.json
- create mode 100644 .gitignore
- create mode 100644 CLAUDE.md. Committed as `9e23a7e` (initial root commit) with `.claude/settings.json`, `.gitignore`, and `CLAUDE.md`. Working tree is now clean.
+Server's back up — that error was just because I'd stopped it earlier. Reload the page (or go to **http://localhost:8642**) and it should load now.. push code. [tool: Bash `git status --short | wc -l
+git rev-parse --abbrev-ref HEAD
+git remote -v`]
 
 ### Recent Decisions
 _No decisions recorded yet._
@@ -16,7 +14,12 @@ _No decisions recorded yet._
 - Status: Ready
 
 ### Open Problems
-_No open problems._
+- BROKEN_IMAGES: []
+- cardFocusable: true
+- introHiddenUnderReducedMotion: true
+- productId: oversized-black-tee
+- FIT_COUNT_AFTER_FILTER: 6 fits
+- fix git
 
-_Last updated: 2026-07-20T04:11:30.899Z | Tokens: 126/800_
+_Last updated: 2026-07-20T05:24:13.811Z | Tokens: 139/800_
 <!-- CORTEX:END -->

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "demo-review-1",
+    "demo": true,
+    "rating": 5,
+    "name": "J. Reyes",
+    "fitId": "midnight-movement-001",
+    "comment": "The proportions on this one translated exactly like the photos. Sizing note was accurate for me."
+  },
+  {
+    "id": "demo-review-2",
+    "demo": true,
+    "rating": 4,
+    "name": "A. Kim",
+    "fitId": "velvet-static-007",
+    "comment": "Loved the breakdown panel — being able to see every piece before leaving the site made checkout on Amazon quick."
+  },
+  {
+    "id": "demo-review-3",
+    "demo": true,
+    "rating": 5,
+    "name": "T. Osei",
+    "fitId": "base-layer-01-006",
+    "comment": "Simple, wearable, and the total estimate was close to what I actually paid on Amazon."
+  }
+]

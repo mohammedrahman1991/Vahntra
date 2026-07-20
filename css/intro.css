@@ -1,0 +1,108 @@
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-intro);
+  background: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity var(--dur-slow) var(--ease), transform var(--dur-slow) var(--ease);
+}
+
+.intro[hidden] { display: none; }
+
+.intro.is-leaving {
+  opacity: 0;
+  transform: translateY(-16px);
+  pointer-events: none;
+}
+
+.intro-skip {
+  position: absolute;
+  top: 22px;
+  right: clamp(20px, 4vw, 40px);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 10px 6px;
+  transition: color var(--dur-fast) var(--ease);
+}
+.intro-skip:hover { color: var(--off-white); }
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 18px;
+  padding: 24px;
+}
+
+.intro-logo {
+  width: clamp(56px, 8vw, 84px);
+  height: clamp(56px, 8vw, 84px);
+  opacity: 0;
+  transform: scale(0.86);
+  transition: opacity 900ms var(--ease), transform 900ms var(--ease);
+}
+.intro.is-active .intro-logo {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.intro-wordmark {
+  font-family: var(--font-heading);
+  font-size: clamp(20px, 3vw, 26px);
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 700ms var(--ease) 260ms, transform 700ms var(--ease) 260ms;
+}
+.intro.is-active .intro-wordmark { opacity: 1; transform: translateY(0); }
+
+.intro-tagline {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  opacity: 0;
+  transition: opacity 700ms var(--ease) 480ms;
+}
+.intro.is-active .intro-tagline { opacity: 1; }
+
+.intro-line {
+  width: clamp(120px, 20vw, 200px);
+  height: 1px;
+  background: var(--border);
+  overflow: hidden;
+  margin-top: 6px;
+}
+.intro-line-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--off-white);
+  transition: width 1200ms var(--ease) 560ms;
+}
+.intro.is-active .intro-line-fill { width: 100%; }
+
+.intro-enter {
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 500ms var(--ease) 700ms;
+}
+.intro.is-active .intro-enter { opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  .intro-logo, .intro-wordmark, .intro-tagline, .intro-enter {
+    transition: opacity 200ms linear;
+    transform: none;
+  }
+  .intro-line-fill { transition: width 200ms linear; }
+  .intro.is-active .intro-logo,
+  .intro.is-active .intro-wordmark,
+  .intro.is-active .intro-tagline,
+  .intro.is-active .intro-enter { opacity: 1; }
+}
