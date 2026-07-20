@@ -2,10 +2,12 @@
 ## Project Memory (auto-managed by Cortex)
 
 ### Last Session
-[tool: Bash `lsof -ti:8642 -sTCP:LISTEN | xargs -r kill 2>/dev/null
-(python3 -m http.serve...`]. added 2 packages in 1s
-Shell cwd was reset to /Users/mohammedrahman/Desktop/Vahntra. [tool: Bash `node -e "
-const { chromium } = require('/private/tmp/claude-501/-Users-mohamm...`]
+Session covered: /Users/mohammedrahman/Desktop/Vahntra/pictures/Product 2 mens/.DS_Store
+/Users/mohammedrahman/Desktop/Vahntra/pictures/Product 2 mens/ChatGPT Image Jul 20, 2026, 03_21_12 PM.png
+---product 1 links---
+; -rw-r--r--   1 mohammedrahman  staff   349798 Jul 20 01:21 green-plaid-flannel-shirt.jpg
+-rw-r--r--@  1 mohammedrahman  staff  1853595 Jul 20 15:29 green-plaid-flannel-shirt.png
+-rw-r--r--   1 mohamme; updated; 55	        <button type="button" data-breakdown-close-mobile>Close<...
 
 ### Recent Decisions
 _No decisions recorded yet._
@@ -16,7 +18,6 @@ _No decisions recorded yet._
 
 ### Open Problems
 - BROKEN: []
-- BROKEN: []
 - [first-push f137c86] Fix mobile-nav rendering on desktop; redesign hero placeholder art
 - ERRORS: 0
 - BROKEN_IMAGES: []
@@ -26,5 +27,5 @@ _No decisions recorded yet._
 - FIT_COUNT_AFTER_FILTER: 6 fits
 - fix git
 
-_Last updated: 2026-07-20T19:41:56.724Z | Tokens: 181/800_
+_Last updated: 2026-07-20T19:56:40.390Z | Tokens: 233/800_
 <!-- CORTEX:END -->
