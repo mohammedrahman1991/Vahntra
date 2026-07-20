@@ -31,7 +31,7 @@ function itemRow(item) {
     : typeof item.price === "number" ? `$${item.price.toFixed(2)}` : "CHECK AMAZON";
   return `
     <div class="breakdown-item">
-      <div class="breakdown-item-thumb"><img src="${item.image}" alt="${item.name}" loading="lazy" width="64" height="64"></div>
+      <a class="breakdown-item-thumb" href="${item.amazonLink}" target="_blank" rel="noopener noreferrer sponsored" aria-label="View ${item.name} on Amazon"><img src="${item.image}" alt="${item.name}" loading="lazy" width="64" height="64"></a>
       <div class="breakdown-item-info">
         <span class="breakdown-item-label">${item.label}</span>
         <span class="breakdown-item-name">${item.name}</span>

@@ -1181,7 +1181,7 @@
       "utility",
       "streetwear"
     ],
-    "image": "assets/products/green-plaid-flannel-shirt.jpg",
+    "image": "assets/products/green-plaid-flannel-shirt.png",
     "amazonLink": "https://amzn.to/4fK3SSN"
   },
   {
@@ -1208,7 +1208,7 @@
       "heavyweight",
       "streetwear"
     ],
-    "image": "assets/products/acid-wash-zip-hoodie.jpg",
+    "image": "assets/products/acid-wash-zip-hoodie.png",
     "amazonLink": "https://amzn.to/4wXkJaJ"
   },
   {
@@ -1235,7 +1235,7 @@
       "outdoor",
       "streetwear"
     ],
-    "image": "assets/products/lightweight-shell-windbreaker.jpg",
+    "image": "assets/products/lightweight-shell-windbreaker.png",
     "amazonLink": "https://amzn.to/4yvzGlK"
   }
 ]

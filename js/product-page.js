@@ -18,6 +18,7 @@ export async function initProductPage() {
   root.querySelector("[data-product-crumb-title]").textContent = product.name;
   root.querySelector("[data-product-image]").src = product.image;
   root.querySelector("[data-product-image]").alt = product.name;
+  root.querySelector("[data-product-image-link]").href = product.amazonLink;
   root.querySelector("[data-product-name]").textContent = product.name;
   root.querySelector("[data-product-brand]").textContent = product.brand;
   root.querySelector("[data-product-price]").textContent = typeof product.price === "number" ? `$${product.price.toFixed(2)}` : "CHECK AMAZON";

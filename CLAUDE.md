@@ -2,7 +2,13 @@
 ## Project Memory (auto-managed by Cortex)
 
 ### Last Session
-Active session with 6 messages
+{
+    "href": "https://amzn.to/4fK3SSN",
+    "target": "_blank",
+    "rel": "noopener noreferrer sponsored"
+  },
+  {
+    "href": "https://amzn.to/4wXk. [Image: original 1440x3337, displayed at 863x2000. Multiply coordinates by 1.67 to map to original image.]. Clean, working, no console errors. Cleaning up and deploying.
 
 ### Recent Decisions
 _No decisions recorded yet._
@@ -21,5 +27,5 @@ _No decisions recorded yet._
 - FIT_COUNT_AFTER_FILTER: 6 fits
 - fix git
 
-_Last updated: 2026-07-20T18:00:49.484Z | Tokens: 111/800_
+_Last updated: 2026-07-20T19:33:25.986Z | Tokens: 183/800_
 <!-- CORTEX:END -->
